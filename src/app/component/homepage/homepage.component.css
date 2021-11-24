@@ -1,0 +1,133 @@
+
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+*{
+  font-family: poppins;
+}
+#color1{
+  position: absolute;
+  width: 194.82px;
+  height: 276.26px;
+  left: -40px;
+  top: -150.13px;
+  background: #4DAC23;
+  border-radius: 50px;
+  transform: rotate(55.74deg);
+}
+#unilag{
+  display: block;
+  margin-top: 150px;
+  text-align: center;
+}
+#ea{
+  text-align: center;
+  color: #4DAC23;
+  height: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#ease{
+  text-align: center;
+  color: #4DAC23;
+}
+#for{
+  text-align: right;
+  line-height: normal;
+  margin-top: -5px;
+}
+#forgot{
+  color: #4DAC23;
+  text-decoration: none;
+  font-size: 12px;
+}
+.sign{
+  background-color: #4DAC23;
+  border: none;
+  width: 5.875rem;
+  height: 1.7875rem;
+  border-radius: 1.25rem ;
+  display: block;
+  margin: auto;
+  margin-top: -20px;
+}
+.sign a{
+  text-decoration: none;
+  color: #ffff;
+}
+.signin{
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  height: 20.75375rem;
+  width: 17.011875rem;
+  margin: auto;
+  padding: 30px;
+  position: absolute;
+  top: -20px;
+}
+#student{
+  color: #4DAC23;
+  text-align: center;
+  font-weight: bold;
+  opacity: 100%;
+
+}
+#labell{
+  color: #4DAC23;
+  line-height:0.75rem ;
+  padding: 4px;
+  opacity: 100%;
+}
+.labell{
+  color: #4DAC23;
+  line-height:0.75rem ;
+  padding: 4px;
+}
+
+.credentials{
+  border: 1px solid #DCDAFE;
+  border-radius:0.625rem ;
+  width: 95%;
+  margin-bottom: 0.5rem;
+}
+#are{
+  color: #162044;
+  text-align: center;
+}
+.click{
+  text-align: center;
+  text-decoration: none;
+  margin-top: -15px;
+}
+#clickr{
+  text-decoration: none;
+  color: #4DAC23;
+  font-size: 12px;
+}
+
+#color2{
+position: absolute;
+width: 430.81px;
+height: 855.46px;
+right: 90.16px;
+top: 279px;
+background: #E5B70B;
+border-radius: 165.405px;
+transform: rotate(55.74deg);
+}
+
+#border-ting{
+  position: relative;
+  background: transparent ;
+  border-radius: 30px;
+  height: 20.75375rem;
+  width: 17.011875rem;
+  margin-top: 3.45125rem;
+  margin: auto;
+  padding: 30px;
+  /* border: 2px solid #155092; */
+  margin-top: 7.45125rem;
+  background-clip: padding-box;
+  border: 2px solid #155092;
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+}
