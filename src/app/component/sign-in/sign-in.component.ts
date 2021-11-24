@@ -7,6 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SignInComponent implements OnInit {
 
+  icon:boolean=false;
+  modal:boolean=true;
+   iconFunction(){
+     this.icon=true;
+     this.modal=false;
+    
+ }
+
+modalFunction(){
+     this.modal=true;
+     this.icon=false;
+    
+ }
+
+
   constructor() { }
 
   ngOnInit(): void {

@@ -63,6 +63,7 @@
   padding: 30px;
   position: absolute;
   top: -20px;
+  z-index: 1;
 }
 #student{
   color: #4DAC23;
@@ -105,11 +106,11 @@
 }
 
 #color2{
-position: absolute;
+  position: absolute;
 width: 430.81px;
 height: 855.46px;
-right: 90.16px;
-top: 279px;
+right: 13rem;
+bottom: -350px;
 background: #E5B70B;
 border-radius: 165.405px;
 transform: rotate(55.74deg);
@@ -124,6 +125,7 @@ transform: rotate(55.74deg);
   margin-top: 3.45125rem;
   margin: auto;
   padding: 30px;
+  z-index: 1;
   /* border: 2px solid #155092; */
   margin-top: 7.45125rem;
   background-clip: padding-box;
