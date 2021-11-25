@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { SignInComponent } from '../sign-in/sign-in.component';
+
 
 @Component({
   selector: 'app-homepage',
@@ -7,7 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomepageComponent implements OnInit {
 
-  constructor() { }
+  
+
+  
+
+  constructor() { 
+    const signIn= ()=>{
+    console.log("")
+    }
+  }
 
   ngOnInit(): void {
   }
