@@ -7,6 +7,7 @@ import { HomepageComponent } from './component/homepage/homepage.component';
 import { SignInComponent } from './component/sign-in/sign-in.component';
 import { LecturerComponent } from './component/lecturer/lecturer.component';
 import { LecturerHomepageComponent } from './component/lecturer-homepage/lecturer-homepage.component';
+import { AttendancePageComponent } from './component/attendance-page/attendance-page.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { LecturerHomepageComponent } from './component/lecturer-homepage/lecture
     HomepageComponent,
     SignInComponent,
     LecturerComponent,
-    LecturerHomepageComponent
+    LecturerHomepageComponent,
+    AttendancePageComponent
   ],
   imports: [
     BrowserModule,
