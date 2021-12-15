@@ -7,15 +7,14 @@
   <div id="border-ting">
     <div class="signin">
       <p id="student">Sign in a lecturer</p>
-  <form id="forms" action="submit">
+  <form id="forms"  [formGroup]="loginForm" (ngSubmit)="login()">
     <label for="Matric" id="labell">Matric Number:</label><br>
-    <input required minlength="8" maxlength="9" type="text" class="credentials" name="fname"><br>
+    <input required minlength="8"  type="text" class="credentials" name="fname" formControlName="email"><br>
     <label for="Password" class="labell">Password:</label><br>
-    <input required type="password" class="credentials" name="lname">
+    <input required type="password" class="credentials" name="lname" formControlName="password">
 
     <button class="sign">
-      <a href="lecturerHomepage"> Sign in
-      </a>
+       Sign in
       </button>
   </form>
   <p id="for">

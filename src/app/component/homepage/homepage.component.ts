@@ -32,7 +32,7 @@ export class HomepageComponent implements OnInit {
       if(user){
         alert('Login Succesful');
         this.loginForm.reset()
-      this.router.navigate(["home"])
+      this.router.navigate(["sign-in"])
       }else{
         alert("user not found")
       }
